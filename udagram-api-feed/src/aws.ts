@@ -8,6 +8,8 @@ AWS.config.credentials = credentials;
 
 export const s3 = new AWS.S3({
   signatureVersion: 'v4',
+  accessKeyId: config.aws_access_key_id,
+  secretAccessKey: config.aws_secret_access_key,
   region: config.aws_region,
   params: {Bucket: config.aws_media_bucket},
 });
