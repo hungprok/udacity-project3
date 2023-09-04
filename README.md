@@ -3,9 +3,8 @@
 Udagram is a simple cloud application developed alongside the Udacity Cloud Developer Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
 The project is split into two parts:
-1. Frontend - Angular web application built with Ionic Framework
-2. Backend RESTful API - Node-Express application
-
+1. Frontend - http://ac13c4108c8e24e228d9ef645634fb10-1712885532.us-east-1.elb.amazonaws.com/home
+2. Backend RESTful API - http://a8ee7931c90f74c139a90702af23116a-1593673523.us-east-1.elb.amazonaws.com:8080/api/v0
 ## Getting Started
 > _tip_: it's recommended that you start with getting the backend API running since the frontend web application depends on the API.
 
